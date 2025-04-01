@@ -44,5 +44,5 @@ next-env.d.ts
 .vscode
 
 # pocketbase
-/pb_data/
-/pb_migrations/
+pb_data/
+pb_migrations/
