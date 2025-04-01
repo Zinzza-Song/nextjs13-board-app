@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import Link from 'next/link'
 import React from 'react'
+import { CreatePost } from './CreatePost'
 
 async function getPost() {
   const res = await fetch(
@@ -26,6 +27,7 @@ export default async function PostsPage() {
           />
         )
       })}
+      <CreatePost />
     </div>
   )
 }
